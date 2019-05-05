@@ -1,8 +1,4 @@
 /*
- * This is a simple example of how one could convert all occurrances of "javax.*"
- * to "jakarta.*" within a Jakarta EE project.  To use, pass the directory path
- * to the project.
- *
  * This class accepts the directory path, then traverses each file looking for 
  * those ending in .java, and changes all occurrances of the text within those files.
  * Next, it searches for files ending in .xml, and changes all occurances of text
